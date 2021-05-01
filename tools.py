@@ -1,7 +1,8 @@
 import numpy as np
 from math import sin, cos, sqrt
 
-def cartesioan_to_polar(x, y, vx, vy, THRESH = 0.0001):
+
+def cartesian_to_polar(x, y, vx, vy, THRESH = 0.0001):
     """
     Converts 2D cartesian position and velocity coordinates to polar coordinates.
     :param x, y: Position components in cartesian coordinates
